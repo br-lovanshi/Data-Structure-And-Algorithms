@@ -145,6 +145,16 @@ public class NodeList{
         return dummy.next;
     }
 
+    public boolean listCycle(Node head){
+        Node slow = head, fast = head;
+        while(fast != null && fast.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+            if(slow == fast) return true;
+        }
+        return false;
+    }
+
     public static void main(String[] args) {
         NodeList list = new NodeList();
         list.addAtLast(2);
@@ -161,5 +171,18 @@ public class NodeList{
         list1.addAtLast(4);
         list1.addAtLast(5);
         list.mergeSortedList(list.head, list1.head);
+
+        // Create nodes
+        Node a = new Node(1);
+        Node b = new Node(2);
+        Node c = new Node(3);
+        Node d = new Node(4);
+
+         // Link nodes
+        a.next = b;
+        b.next = c;
+        c.next = d;
+        d.next = b; // Creates a cycle
+        boolean isCycle = list.listCycle(a);
     }
 }
