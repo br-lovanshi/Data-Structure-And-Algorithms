@@ -12,8 +12,8 @@ def sort(nums):
             if nums[j] > nums[j+1]:
                 swap(nums, j, j + 1)
                 is_swapped = True
-            
-        if is_swapped == False:
+
+        if is_swapped is False:
             break
 
 
@@ -21,6 +21,7 @@ def swap(nums, i, j):
     temp = nums[i]
     nums[i] = nums[j]
     nums[j] = temp
+
 
 # test case
 if __name__ == "__main__":
