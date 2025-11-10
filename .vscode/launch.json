@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NthFactorial",
+      "request": "launch",
+      "mainClass": "kunal_kushwaha.NthFactorial",
+      "projectName": "Data-Structure-And-Algorithms_d901a195"
+    },
+    {
+      "type": "java",
+      "name": "PrintNumbers",
+      "request": "launch",
+      "mainClass": "kunal_kushwaha.PrintNumbers",
+      "projectName": "Data-Structure-And-Algorithms_d901a195"
+    },
+    {
+      "type": "java",
+      "name": "LearningRecursion",
+      "request": "launch",
+      "mainClass": "LearningRecursion",
+      "projectName": "Data-Structure-And-Algorithms_d901a195"
+    },
+    {
+      "type": "java",
       "name": "NodeList",
       "request": "launch",
       "mainClass": "NodeList",
