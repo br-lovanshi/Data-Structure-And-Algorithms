@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Builder",
+      "request": "launch",
+      "mainClass": "data_structure.problems.pattern.Builder",
+      "projectName": "Data-Structure-And-Algorithms_d901a195"
+    },
+    {
+      "type": "java",
+      "name": "Factory",
+      "request": "launch",
+      "mainClass": "data_structure.problems.pattern.Factory",
+      "projectName": "Data-Structure-And-Algorithms_d901a195"
+    },
+    {
+      "type": "java",
       "name": "NthFactorial",
       "request": "launch",
       "mainClass": "kunal_kushwaha.NthFactorial",
