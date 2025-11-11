@@ -29,6 +29,20 @@ public class CountZero {
         } else {
             return countZero(n / 10);
         }
+        
+    }
+
+    public int recursion(int num, int count){
+
+        if(num ==  0){
+            return count;
+        }
+
+        if(num % 2 == 1){
+         return recursion(num-1, ++count);
+        }
+
+        return recursion(num/2, ++count);
     }
 }
 //https://www.geeksforgeeks.org/find-number-zeroes/
