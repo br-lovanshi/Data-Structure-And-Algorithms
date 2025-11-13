@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Observer",
+      "request": "launch",
+      "mainClass": "data_structure.problems.pattern.Observer",
+      "projectName": "Data-Structure-And-Algorithms_d901a195"
+    },
+    {
+      "type": "java",
+      "name": "Strategy",
+      "request": "launch",
+      "mainClass": "data_structure.problems.pattern.Strategy",
+      "projectName": "Data-Structure-And-Algorithms_d901a195"
+    },
+    {
+      "type": "java",
       "name": "Builder",
       "request": "launch",
       "mainClass": "data_structure.problems.pattern.Builder",
