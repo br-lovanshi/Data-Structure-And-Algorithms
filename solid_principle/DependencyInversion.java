@@ -39,4 +39,4 @@ public class DependencyInversion {
     }
 }
 
-// parent class shuld not dependent on child class both should lossly coupled
+// parent class should not dependent on child class both should lossly coupled
