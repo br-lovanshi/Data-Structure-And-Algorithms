@@ -3,8 +3,8 @@ package kunal_kushwaha;
 public class NthFactorial{
     public static void main(String[] args) {
         int n = 5;
-        int out = fact1(n); // itrative way
-        fact(n, 1);
+       // int out = fact1(n); // itrative way
+        int out = fact(n, 1);
         System.out.println(out);
     }
 
@@ -16,6 +16,7 @@ public class NthFactorial{
         return fact;
     }
 
+    // recursive way
     static int fact(int n, int factValue){
         if(n == 1){
             return factValue;

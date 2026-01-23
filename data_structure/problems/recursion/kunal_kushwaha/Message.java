@@ -35,4 +35,8 @@ public class Message{
         System.out.println("Namaste Recursion");
         print(n-1);
     }
+
+    public static void printNumber(int n){
+      if(n <)
+    }
 }

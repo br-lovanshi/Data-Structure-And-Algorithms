@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Message",
+      "request": "launch",
+      "mainClass": "kunal_kushwaha.Message",
+      "projectName": "Data-Structure-And-Algorithms_d901a195"
+    },
+    {
+      "type": "java",
       "name": "Observer",
       "request": "launch",
       "mainClass": "data_structure.problems.pattern.Observer",
