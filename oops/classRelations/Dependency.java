@@ -23,4 +23,4 @@ public class Dependency {
     }
 }
 
-// Uses a relation: one class temprory user another.
+// Uses a relation: one class temprory uses another.
